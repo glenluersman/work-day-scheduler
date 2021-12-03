@@ -3,16 +3,17 @@ var saveBtn = $(".saveBtn");
 $("#currentDay").text(moment().format('dddd MMMM Do YYYY'));
 
 var timeBlock = function() {
-    var hour = moment().hours();
-
+    var hour = parseInt(moment().format("H"));
+    
     $(".time-block").each(function() {
         var currentHour = parseInt($(this).attr("id"));
-        console.log(this);
-
+        console.log(hour);
+        console.log(currentHour);
+        
         if (currentHour > hour) {
             $(this).addClass("future");
         } else if (currentHour === hour) {
-            $(this).addClass("prestent");
+            $(this).addClass("present");
         }else {
             $(this).addClass("past");
         }
