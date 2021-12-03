@@ -19,3 +19,26 @@ var timeBlock = function() {
     })
 
 };
+
+saveBtn.on("click", function() {
+
+    var time = $(this).siblings(".hour").text();
+    var plan = $(this).siblings(".plan").val();
+
+    localStorage.setItem(time, plan);
+});
+
+var planner = function() {
+
+    $(".hour").each(function() {
+        var currentHour = $(this).text();
+        var currentPlan = localStorage.getItem(currentHour);
+
+        if(currentPlan !== null) {
+            $(this).siblings(".plan").val(currentPlan);
+        }
+    });
+};
+
+timeBlock()
+planner()
