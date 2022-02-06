@@ -1,46 +1,51 @@
-# 05 Third-Party APIs: Work Day Scheduler
+<p align="center">
+ <img width=200px height=200px src="./Assets/images/logo-round-dark.png" alt="Project logo"></a>
+</p>
 
-Create a simple calendar application that allows the user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+<h3 align="center">Work Day Scheduler</h3>
 
-The starter code uses the [Moment.js](https://momentjs.com/) library to work with date and time, but you're free to use a different JavaScript solution to handle this functionality because Moment.js is considered a "legacy" product. Learn more about these other solutions in the [Moment.js project status page.](https://momentjs.com/docs/#/-project-status/).
+<div align="center">
 
-## User Story
+[![Status](https://img.shields.io/badge/status-active-success.svg)]()
+[![GitHub Issues](https://img.shields.io/github/issues/glenluersman/work-day-scheduler.svg)](https://github.com/glenluersman/work-day-scheduler/issues)
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/glenluersman/work-day-scheduler.svg)](https://github.com/glenluersman/work-day-scheduler/pulls)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
-```
-AS AN employee with a busy schedule
-I WANT to add important events to a daily planner
-SO THAT I can manage my time effectively
-```
-
-## Acceptance Criteria
-
-```
-GIVEN I am using a daily planner to create a schedule
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
-WHEN I scroll down
-THEN I am presented with timeblocks for standard business hours
-WHEN I view the timeblocks for that day
-THEN each timeblock is color coded to indicate whether it is in the past, present, or future
-WHEN I click into a timeblock
-THEN I can enter an event
-WHEN I click the save button for that timeblock
-THEN the text for that event is saved in local storage
-WHEN I refresh the page
-THEN the saved events persist
-```
-
-The following animation demonstrates the application functionality:
-
-![Work Day Scheduler app with color-coded time slots shows a new event being typed in the 5PM slot.](./Assets/05-third-party-apis-homework-demo.gif)
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
+</div>
 
 ---
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+
+## <img src="https://github.com/teamjuli0/readme-badges/blob/main/themes/clean-dark/menu-categories/table-of-context.png?raw=true" style="height: 40px">
+
+- [About](#about)
+- [Usage](#usage)
+- [Built With](#built_using)
+- [Authors](#authors)
+- [Questions](#questions)
+- [Screenshots](#screenshots)
+
+## <img id="about" src="https://github.com/teamjuli0/readme-badges/blob/main/themes/clean-dark/menu-categories/about.png?raw=true" style="height: 40px">
+
+Work Day Scheduler is an application to help user keep track of tasks for the day by showing the hour blocks as past, present, and future.
+
+## <img id="usage" src="https://github.com/teamjuli0/readme-badges/blob/main/themes/clean-dark/menu-categories/usage.png?raw=true" style="height: 40px">
+
+To use Work Day Scheduler simply click on the time block desired, enter your task, and click on the save button. If the text area is gray the task is past due. If the text area is red the task is the present task. If the text area is green it is a future task. To delete a task simply click on the desired task to be deleted, use backspace key to delete text, click the save button.
+
+## <img id="built_using" src="https://github.com/teamjuli0/readme-badges/blob/main/themes/clean-dark/menu-categories/built-using.png?raw=true" style="height: 40px">
+
+- HTML
+- CSS
+- Javascript
+
+## <img id="authors" src="https://github.com/teamjuli0/readme-badges/blob/main/themes/clean-dark/menu-categories/authors.png?raw=true" style="height: 40px">
+
+[glenluersman](https://github.com/glenluersman)
+
+## <img id="questions" src="https://github.com/teamjuli0/readme-badges/blob/main/themes/clean-dark/menu-categories/questions-alt.png?raw=true" style="height: 40px">
+
+- Feel free to open an issue or contact me directly at glen.luersman@gmail.com if you have any questions about the repo. You can find more of my work at [glenluersman](https://github.com/glenluersman/).
+
+## <img id="screenshots" src="https://github.com/teamjuli0/readme-badges/blob/main/themes/clean-dark/menu-categories/screenshots.png?raw=true" style="height: 40px">
+
+<img style="margin: 0 0 15px 0" src="./Assets/images/work-day-scheduler.PNG" ></a>
